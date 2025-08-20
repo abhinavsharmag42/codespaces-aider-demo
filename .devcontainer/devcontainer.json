@@ -1,7 +1,7 @@
 {
   "name": "Python 3 with Aider",
   "image": "mcr.microsoft.com/vscode/devcontainers/python:3",
-  "postCreateCommand": "pip install -r requirements.txt && pip install aider-cli",
+  "postCreateCommand": "pip install -r requirements.txt && pip install aider-chat flask pytest",
   "extensions": [
     "ms-python.python",
     "aider.aider"
